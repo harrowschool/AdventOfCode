@@ -19,7 +19,7 @@ cards = [1]*output
 for i in range(len(cards)):
     for out in range(i+1, min(i+matchlist[i]+1, len(matchlist))):
         cards[out] += cards[i]
-    output += matchlist[i]*cards[i]
+    output += min(matchlist[i], len(matchlist)-i)*cards[i]
 
 print(output)
         
