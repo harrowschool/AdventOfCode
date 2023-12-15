@@ -1,0 +1,5 @@
+LR
+
+11A = (XXZ, XXZ)
+22A = (XXZ, XXZ)
+XXZ = (11A, 22A)
