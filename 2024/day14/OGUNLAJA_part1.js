@@ -1,5 +1,3 @@
-import { getInput } from "./input.js";
-
 function main(inputString) {
   const input = inputString.trim().split("\n");
 
